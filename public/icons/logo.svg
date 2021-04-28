@@ -1,0 +1,16 @@
+<svg width="67" height="39" viewBox="0 0 67 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M6.86667 19.5984V38L24.0267 6.73228L25.2 26.0315L30.6267 10.9213L31.36 22.7402L36.0533 15.5591H56.1467" stroke="white" stroke-width="1.5"/>
+<rect x="50.9867" y="7.88189" width="15.0133" height="15.3543" stroke="white" stroke-width="2"/>
+<line x1="58.4933" y1="26.5276" x2="67" y2="26.5276" stroke="white" stroke-width="2"/>
+<line x1="32.0934" y1="29.8189" x2="67" y2="29.8189" stroke="white" stroke-width="2"/>
+<path d="M62.3067 15.5591L56.5867 18.9277V12.1904L62.3067 15.5591Z" fill="white"/>
+<path d="M56.5 12.0286L62.4947 15.5591L56.5 19.0895V12.0286Z" stroke="white"/>
+<rect x="1" width="12" height="20" rx="6" fill="white"/>
+<rect y="5" width="14" height="10" fill="#202024"/>
+<rect x="1" y="11.2564" width="11.7333" height="1.9748" fill="#202024"/>
+<rect x="3" y="2" width="8" height="16" rx="4" fill="#202024"/>
+<rect x="4" y="6" width="6" height="3" rx="1.5" fill="white"/>
+<rect x="2" y="11" width="10" height="3" rx="1.5" fill="white"/>
+<rect x="3" y="12" width="8" height="1" rx="0.5" fill="#202024"/>
+<rect x="5" y="7" width="4" height="1" rx="0.5" fill="#202024"/>
+</svg>
