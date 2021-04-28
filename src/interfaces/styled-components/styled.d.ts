@@ -1,20 +1,15 @@
-// #region Global Imports
 import 'styled-components';
-// #endregion Global Imports
-type CommonColors = 'transparent' | 'darkGrey' | 'blackGrey' | 'white';
 
-type ExtendedColors =
-    | CommonColors
-    | 'toggleBorder'
-    | 'gradient'
+type CommonColors =
+    | 'transparent'
     | 'background'
     | 'headerBg'
     | 'cardsBg'
-    | 'textColor'
-    | 'dodgerBlue';
+    | 'textColor';
 
 type BreakPoints = {
     small: string;
+    medium: string;
 };
 
 type BorderRadius = {
@@ -23,14 +18,19 @@ type BorderRadius = {
     l: string;
 };
 
+type Spacing = {
+    s: string;
+    m: string;
+    l: string;
+    xl: string;
+    xxl: string;
+};
+
 declare module 'styled-components' {
-    export interface BaseTheme {
+    export interface DefaultTheme {
         colors: Record<CommonColors, string>;
         breakpoints: Record<BreakPoints, string>;
         borderRadius: Record<BorderRadius, string>;
-    }
-
-    export interface DefaultTheme extends BaseTheme {
-        colors: Record<ExtendedColors, string>;
+        spacing: Record<Spacing, string>;
     }
 }

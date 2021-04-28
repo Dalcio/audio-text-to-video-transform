@@ -5,8 +5,7 @@ export const Container = styled.div`
     align-items: center;
     justify-content: space-between;
     text-align: center;
-    width: 100vw;
     height: 58px;
-    padding: 0 16px;
+    padding: 0 24px;
     background-color: ${({ theme }) => theme.colors.headerBg};
 `;

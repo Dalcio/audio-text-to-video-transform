@@ -34,9 +34,8 @@ export const UploadAudio: React.FC = () => {
             <UploadText>
                 {isDragActive
                     ? `Drop the files here ...`
-                    : `Drag 'n' drop some files here, or click to select files`}
+                    : `Drag n' drop some files here, or click to select files`}
             </UploadText>
-            <h3>{JSON.stringify(files)}</h3>
         </UploadContainer>
     );
 };

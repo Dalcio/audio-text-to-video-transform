@@ -1,16 +1,27 @@
 import { DefaultTheme } from 'styled-components';
-import { common } from './common';
 
 const light: DefaultTheme = {
-    ...common,
     colors: {
-        ...common.colors,
-        toggleBorder: '#ABB7C4',
-        gradient: 'linear-gradient(#39598A, #79D7ED)',
-        background: '#121214',
-        cardsBg: '#FFFFFF',
-        textColor: '#000000',
-        dodgerBlue: '#007BFF',
+        transparent: 'transparent',
+        textColor: '#FFFFFF',
+        headerBg: '#202024',
+        cardsBg: '#272C34',
+    },
+    breakpoints: {
+        small: '767px',
+        medium: '767px',
+    },
+    borderRadius: {
+        s: '8px',
+        m: '14px',
+        l: '16px',
+    },
+    spacing: {
+        s: '16px',
+        m: '24px',
+        l: '28px',
+        xl: '48px',
+        xxl: '58px',
     },
 };
 

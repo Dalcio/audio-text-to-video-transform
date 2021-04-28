@@ -1,16 +1,12 @@
 import { DefaultTheme } from 'styled-components';
-import { common } from './common';
+import { light } from './light';
 
 const dark: DefaultTheme = {
-    ...common,
+    ...light,
     colors: {
-        ...common.colors,
-        toggleBorder: '#556678',
-        gradient: 'linear-gradient(#091236, #1E215D)',
+        ...light.colors,
         background: '#121214',
-        cardsBg: '#1A1C22',
         textColor: '#FFFFFF',
-        dodgerBlue: '#0062CC',
     },
 };
 

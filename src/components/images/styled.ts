@@ -1,12 +1,15 @@
 import styled from 'styled-components';
 
-export const Container = styled.div`
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    text-align: center;
-    width: 100vw;
-    height: 58px;
-    padding: 0 16px;
-    background-color: ${({ theme }) => theme.colors.headerBg};
+export const ImageContainer = styled.div`
+    padding: ${({ theme }) => theme.spacing.s};
+
+    @media (max-width: ${({ theme }) => theme.breakpoints.small}) {
+        height: 136px;
+        margin: ${({ theme }) => theme.spacing.m} 0;
+    }
+`;
+
+export const ImageItem = styled.image`
+    height: 100px;
+    width: 100px;
 `;
