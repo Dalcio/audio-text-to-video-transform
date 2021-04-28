@@ -1,8 +1,8 @@
-import { UploadAudio, VideoPlayer } from "@components";
-import { ImagesFound } from "@components/images";
-import React from "react";
+import { UploadAudio, VideoPlayer } from '@components';
+import { ImagesFound } from '@components/images';
+import React from 'react';
 
-import { Col, MainWrapper } from "./styled";
+import { Col, MainWrapper } from './styled';
 
 export const Main: React.FC = () => {
     return (

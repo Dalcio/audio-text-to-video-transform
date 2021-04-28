@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react';
 
-import { Header, Main } from "@components";
-import GlobalStyle from "@styles/globalStyles";
+import { Header, Main } from '@components';
+import GlobalStyle from '@styles/globalStyles';
 
 const Home: React.FC = () => {
     return (

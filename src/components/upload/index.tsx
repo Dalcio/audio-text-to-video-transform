@@ -1,7 +1,7 @@
-import React, { useCallback, useState } from "react";
-import { FileError, FileRejection, useDropzone } from "react-dropzone";
+import React, { useCallback, useState } from 'react';
+import { FileError, FileRejection, useDropzone } from 'react-dropzone';
 
-import { UploadContainer, UploadText } from "./styled";
+import { UploadContainer, UploadText } from './styled';
 
 export interface UploadableFile {
     file: File;
@@ -25,7 +25,7 @@ export const UploadAudio: React.FC = () => {
     const { getRootProps, getInputProps, isDragActive } = useDropzone({
         onDrop,
         multiple: false,
-        accept: ".wav, .mp3",
+        accept: '.wav, .mp3',
     });
 
     return (

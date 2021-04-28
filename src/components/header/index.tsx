@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react';
 
-import { Logo, Toggle } from "@components";
-import { Container } from "./styled";
+import { Logo, Toggle } from '@components';
+import { Container } from './styled';
 
 export const Header: React.FC = () => {
     return (

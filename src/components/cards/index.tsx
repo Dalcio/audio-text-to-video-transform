@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
-import data from "@public/meta.json";
+import data from '@public/meta.json';
 import {
     Row,
     Col,
@@ -9,7 +9,7 @@ import {
     CardBody,
     CardText,
     CardTitle,
-} from "./styled";
+} from './styled';
 
 export const Cards: React.FC = () => {
     return (

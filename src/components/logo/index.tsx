@@ -1,6 +1,6 @@
-import React from "react";
-import Image from "next/image";
-import { HeaderContainer, HeaderText } from "./styled";
+import React from 'react';
+import Image from 'next/image';
+import { HeaderContainer, HeaderText } from './styled';
 
 export const Logo: React.FC = () => {
     return (
